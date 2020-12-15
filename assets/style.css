@@ -12,12 +12,40 @@ h1{
     font-weight: 700;
 }
 
+h2{
+    font-family: 'Raleway';
+}
 
 img{
     max-width: 100%;
     border-radius: .5em;
 }
 
+
+/* Contact page --------------------------------------------- */
+.contact-form-input{
+    height: 30vh;
+    vertical-align: top;
+}
+
+button{
+    width: 40%;
+}
+
+/* .contact-form-input{
+  height: 30vh;
+}
+
+::-webkit-input-placeholder { Chrome/Opera/Safari
+    position: relative !important;
+    transform:translateY(-220%) !important;
+  }
+  input::-moz-placeholder { Firefox 19+
+    vertical-align: top;
+  }
+  input::-ms-input-placeholder { IE 10+
+    vertical-align: top;
+  } */
 
 
 
