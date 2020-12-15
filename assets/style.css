@@ -2,15 +2,43 @@
 /* <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;900&display=swap" rel="stylesheet"> */
 
+/* Site Wide formatting --------------------------------------------- */
+
+/* Index page --------------------------------------------- */
+
 
 h1{
     font-family: 'Raleway';
     font-weight: 700;
-  
-
 }
 
-.container{
+
+img{
+    max-width: 100%;
+    border-radius: .5em;
+}
+
+
+
+
+/* Media Queries --------------------------------------------- */
+
+/* Index page --------------------------------------------- */
+
+@media only screen and (min-width: 600px) {
+h1{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size:100px;
+
+}
+}
+
+
+/* .container{
     background-color: rgb(253, 249, 197);
-}
+} */
 
+/* .centre-header{
+    font-size: 20vh;
+} */
