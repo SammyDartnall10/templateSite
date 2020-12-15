@@ -25,6 +25,12 @@ h2{
     font-family: 'Raleway';
 }
 
+h6{
+    font-family: 'Raleway';
+    font-style: italic;
+    
+}
+
 img{
     max-width: 100%;
     border-radius: .3em;
@@ -122,7 +128,10 @@ button.btn {
 
 button.btn:hover {
     background-color: #F20587;
-    color:white
+    color:white;
+    border-style: solid;
+    border-color: #F20587;
+    border-radius: .3;
 }
 
 
