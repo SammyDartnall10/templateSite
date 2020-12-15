@@ -27,7 +27,77 @@ h2{
 
 img{
     max-width: 100%;
-    border-radius: .5em;
+    border-radius: .3em;
+}
+
+/* Overlays --------------------------------------------- */
+
+.people-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(242, 5, 135);
+  border-radius: .3em;
+}
+
+.people-div:hover .people-overlay {
+  opacity: 1;
+}
+
+.services-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #861BF2;
+  border-radius: .3em;
+}
+
+.services-div:hover .services-overlay {
+  opacity: 1;
+}
+
+.products-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #07DBF2;
+  border-radius: .3em;
+}
+
+.products-div:hover .products-overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 
@@ -38,8 +108,23 @@ img{
 }
 
 button{
-    width: 40%;
+    width: 30%;
 }
+
+button.btn {
+    border-color: rgb(236, 159, 201);
+    border-style: solid;
+    border-radius: .3;
+    border-width: .2em;
+    color:#F20587;
+    background-color: white;
+}
+
+button.btn:hover {
+    background-color: #F20587;
+    color:white
+}
+
 
 #map {
   height: 100%;
