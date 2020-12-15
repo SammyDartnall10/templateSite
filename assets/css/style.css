@@ -4,12 +4,21 @@
 
 /* Site Wide formatting --------------------------------------------- */
 
+p{
+    color: grey;
+}
+
 /* Index page --------------------------------------------- */
 
 
 h1{
     font-family: 'Raleway';
     font-weight: 700;
+    /* border-bottom: blueviolet;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-style: solid; */
 }
 
 h2{
@@ -30,6 +39,10 @@ img{
 
 button{
     width: 40%;
+}
+
+#map {
+  height: 100%;
 }
 
 /* .contact-form-input{
