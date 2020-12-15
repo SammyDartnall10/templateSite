@@ -1,0 +1,16 @@
+/* font-family: 'Raleway', sans-serif; */
+/* <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;900&display=swap" rel="stylesheet"> */
+
+
+h1{
+    font-family: 'Raleway';
+    font-weight: 700;
+  
+
+}
+
+.container{
+    background-color: rgb(253, 249, 197);
+}
+
